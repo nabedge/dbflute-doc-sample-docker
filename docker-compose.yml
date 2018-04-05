@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  dbflute-doc:
+    build: dbflute-doc
+    volumes:
+      - "./target:/target-on-container"
